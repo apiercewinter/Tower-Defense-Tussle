@@ -46,10 +46,10 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void sell(); //Does not handle money, is pretty much just a destroy method
 
-	UFUNCTION(BlueprintImplementableEvent, CallInEditor)
+	UFUNCTION(BlueprintImplementableEvent, CallInEditor, BlueprintCallable)
 	void Select();
 
-	UFUNCTION(BlueprintImplementableEvent, CallInEditor)
+	UFUNCTION(BlueprintImplementableEvent, CallInEditor, BlueprintCallable)
 	void Unselect();
 
 	// Sphere component used to test collision. (Footprint)
